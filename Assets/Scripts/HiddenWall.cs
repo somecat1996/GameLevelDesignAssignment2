@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class HiddenWall : MonoBehaviour
 {
-    public float hiddenTime = 1f;
+    private float hiddenTime = 0.3f;
 
     private float hiddenTimer = 0f;
     private Tilemap tilemap;
